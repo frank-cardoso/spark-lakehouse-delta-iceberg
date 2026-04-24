@@ -1,0 +1,9 @@
+site_name: Arquitetura de Dados - Delta & Iceberg
+theme:
+  name: material
+
+nav:
+  - 'Home': index.md
+  - 'Apache Spark': spark.md
+  - 'Apache Iceberg': iceberg.md
+  - 'Delta Lake': delta.md

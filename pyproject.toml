@@ -1,16 +1,19 @@
 [project]
 name = "spark-lakehouse-delta-iceberg"
 version = "0.1.0"
-description = ""
+description = "Trabalho de Arquitetura de Dados - UniSatc"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Frank Cardoso", email = "frank.cardoso032@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
+# Deixamos >=3.11 para aceitar seu Python 3.14, mas rodar como se fosse estável
+requires-python = ">=3.11"
+
 dependencies = [
+    "pyspark==3.5.0",
+    "delta-spark==3.1.0"
 ]
 
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.0"
+mkdocs-material = "^9.5.0"
