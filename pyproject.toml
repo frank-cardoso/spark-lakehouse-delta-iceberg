@@ -6,7 +6,6 @@ authors = [
     {name = "Frank Cardoso", email = "frank.cardoso032@gmail.com"}
 ]
 readme = "README.md"
-# Deixamos >=3.11 para aceitar seu Python 3.14, mas rodar como se fosse estável
 requires-python = ">=3.11"
 
 dependencies = [
