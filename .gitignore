@@ -1,0 +1,19 @@
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.crc
+*.avro
+*.snappy
+_delta_log/
+metadata/
+data/
+
+# Pastas geradas pelo MkDocs
+site/
+
+# Arquivos temporários do Python e VS Code
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.vscode/
