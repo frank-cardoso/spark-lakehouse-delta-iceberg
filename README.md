@@ -16,6 +16,7 @@ Projeto desenvolvido para demonstração do Apache Spark Local (PySpark) executa
 Para este laboratório foi utilizado o **Windows 11**, mas o projeto é totalmente compatível com ambientes **Linux/WSL**. O projeto Python foi inicializado com o **Poetry** para isolamento de dependências e configuração do ambiente, garantindo a compatibilidade do PySpark 3.5.0 com o Python 3.11.
 
 Comandos utilizados para setup do ambiente:
+
 ```powershell
 python -m pip install --user poetry
 python -m poetry install
@@ -28,6 +29,22 @@ Os exemplos de código PySpark para instanciar o motor e manipular as tabelas (I
 **Nota 1:** Antes de executar os arquivos citados acima, não esqueça de selecionar o seu ambiente virtual criado pelo Poetry como Kernel do seu Jupyter Notebook.
 
 **Nota 2:** Os arquivos `.ipynb` foram executados dentro do VS Code. Diferente do Linux/WSL, a execução no Windows exige o `winutils`, que já foi tratado via script direto nas primeiras células dos nossos notebooks.
+
+## 📚 Documentação (MkDocs)
+Toda a fundamentação teórica e as evidências práticas foram documentadas utilizando o framework MkDocs. 
+
+**Para testar o site localmente:**
+
+```powershell
+python -m poetry run mkdocs serve
+```
+*(O site ficará disponível em [http://127.0.0.1:8000](http://127.0.0.1:8000))*
+
+**Para fazer o deploy (publicar no GitHub Pages):**
+
+```powershell
+python -m poetry run mkdocs gh-deploy
+```
 
 ## Referências
 * [Delta Lake Quickstart](https://docs.delta.io/latest/quick-start.html)
