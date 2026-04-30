@@ -11,4 +11,5 @@ O Iceberg usa metadados para evitar a necessidade de listar todos os arquivos em
 
 Essa organizacao melhora desempenho, facilita manutencao e permite evoluir particionamento sem reescrever dados.
 
-[COLAR PRINTS DO ICEBERG AQUI]
+### Evidência Prática
+![Execução do Apache Iceberg](assets/iceberg.png)

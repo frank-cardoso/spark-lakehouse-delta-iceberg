@@ -13,4 +13,5 @@ O Delta Lake garante **ACID** por meio do log transacional. Cada escrita gera um
 ## Time Travel
 O **Time Travel** permite consultar versoes antigas usando numero de versao ou timestamp. O mecanismo reconstrui o estado da tabela ao ler o log ate a versao desejada, garantindo reproducibilidade e auditoria.
 
-[COLAR PRINTS DO DELTA AQUI]
+### Evidência Prática
+![Execução do Delta Lake](assets/delta_lab.png)
