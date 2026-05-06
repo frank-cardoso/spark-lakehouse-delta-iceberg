@@ -1,0 +1,14 @@
+{
+  "name": "spark-lakehouse-delta-iceberg",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "remoteUser": "jovyan"
+}
