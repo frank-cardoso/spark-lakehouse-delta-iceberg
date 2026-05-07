@@ -43,8 +43,13 @@ Toda a fundamentação teórica e as evidências práticas foram documentadas ut
 ```bash
 python -m pip install mkdocs-material
 mkdocs serve
-
+```
 *(O site ficará disponível em [http://127.0.0.1:8000](http://127.0.0.1:8000))*
+
+**Para fazer o deploy (publicar no GitHub Pages):**
+```bash
+poetry run mkdocs gh-deploy
+```
 
 ## Referências
 * [Delta Lake Quickstart](https://docs.delta.io/latest/quick-start.html)
